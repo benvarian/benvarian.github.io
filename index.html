@@ -5,33 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Portfolio</title>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ben Varian - Portfolio</title>
 </head>
 <html>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand">Ben Varian</a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#Work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#Contact">Contact</a>
-                    </li>
-                </ul>
+    <div class="bgk-color" id="content-holder">
+        <div class="background-top">
+            <div class="edge">
+                <div class="container-fluid background identifier">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand color-text" href="#">BEN VARIAN</a>
+                            <button class="navbar-toggler u" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto ">
+                                    <li class="nav-item">
+                                        <a class="nav-link color-text" href="#Work">WORK</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-text" href="#about">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-text" href="#Contact">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="container-fluid about background center-inside" id="about">
+                        <div class="background center">
+                            <p style="text-align: center; font-size: 1rem;" class="color-text "><span class="font_b"
+                                    style="letter-spacing: 0.16rem;">CYBER SECURITY STUDENT</span></p>
+                            <p style="font-size: 5.55556rem; text-align: center; " class="color-text"><span
+                                    class=" font_b">Ben Varian</span></p>
+                            <p style="font-size: 0.8rem; text-align: center;"><span class="color-text font_small">COMPUTER SCIENCE & CYBER SECURITY @ UWA</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
-        <div class="about" id="about">
-            <h1>About</h1>
-            <p>Hi im ben</p>
-            <img src="images/ben.jpeg" width="100" height="130">
         </div>
         <div class="Education" id="edu">
             <h1>Education</h1>
@@ -54,9 +74,8 @@
                 <li>CITS1402: Relationtional Database Management Systems</li>
                 <li>SSEH1102: Applied Anatomy & Athletic Performance</li>
             </ul>
-
-
         </div>
+
         <div class="work" id="work">
             <h1>Work</h1>
             <p style="display: inline;">Premium Catering
@@ -89,14 +108,13 @@
         <div class="contact" id="Contact">
             <br>
             <h1>Contact</h1>
-            <p>Email Address: <span> <a href="mailto: benjamin_varian@icloud.com">benjamin_varian@icloud.com </a></span> </p>
+            <p>Email Address: <span> <a href="mailto: benjamin_varian@icloud.com">benjamin_varian@icloud.com </a></span>
+            </p>
             <!-- <p>Mobile: <span>0448-927-551</span></p> -->
         </div>
     </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
