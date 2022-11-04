@@ -1,7 +1,6 @@
  img p {
      display: inline-block;
      vertical-align: middle;
-
  }
 
  html,
@@ -12,16 +11,16 @@
  .background-top {
      background-image: url('/images/bg.gif');
      background-repeat: no-repeat;
-     background-size: 100% 100%;
+     background-size: cover;
      width: 100%;
-     min-height: 100%;
+     height: 100%;
+     overflow: hidden;
  }
 
  .identifier {
      border-style: dashed;
      border-color: red;
      height: 100vh;
-
  }
 
  .center {
@@ -38,9 +37,9 @@
      padding-right: 2rem;
  }
 
- .bgk-color {
+ /* .bgk-color {
      background-color: rgb(24, 26, 27);
- }
+ } */
 
  .font_b {
      font-family: "europa", sans-serif;
@@ -57,12 +56,34 @@
  .personal-content {
      padding-top: 5.5rem;
      padding-bottom: 5.5rem;
-
  }
+
  .center-inside {
-    display: inline-block;
-    vertical-align: middle;
-    border-style: double;
-    border-color: yellow;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
 
  }
+
+ .font_title {
+     font-family: "karla", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+ }
+
+ .font_content {
+     font-size: 1rem;
+     margin-bottom: 0;
+     font-family: "karla", sans-serif;
+     font-weight: 100;
+ }
+
+ .section_2 {
+    padding-top: 5.5rem;
+    padding-right: 0rem;
+    padding-bottom: 5.5rem;
+    background-color: aqua;
+ }
+
+ 
